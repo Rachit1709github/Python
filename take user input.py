@@ -14,3 +14,4 @@ a=str(a)
 print("data type of a=",type(a))
 print("data type of b=",type(b))
 print("data type of c=",type(c))
+
