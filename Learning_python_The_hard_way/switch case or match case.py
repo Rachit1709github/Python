@@ -9,7 +9,7 @@ match x:
         print("x is 4")
     case _:
         print("This is for default case")
-y=4
+y=90
 match y:
     case 0:
         print("y is zero")
@@ -17,7 +17,10 @@ match y:
         print("y is 4")
     case 2:
         print("y is 2")
+    case _ if (y == 50):
+        print("y is  50")
     case _ if(y!=90):
               print("y is not 90")
-    case _ if (y!=50):
-        print("y is not 50")
+    case _:
+        print("WTH did u entered")
+
