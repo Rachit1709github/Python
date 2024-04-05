@@ -15,6 +15,7 @@ print(a.upper())
 print(b.rstrip("!"))
 print(b.lstrip("!"))
 print(b.rstrip("!").lstrip("!"))
+print(b.strip("!"))
 
 c="introduction to js. hello world"
 print(c.capitalize())
